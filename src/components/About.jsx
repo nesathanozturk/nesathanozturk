@@ -12,13 +12,13 @@ const About = () => {
           />
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2">
+          <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2 dark:text-[#0891B2]">
             About Me
           </h1>
-          <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold mb-4">
+          <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold mb-4 dark:text-[#0891B2]">
             Who am i?
           </p>
-          <p className="text-base md:text-lg">
+          <p className="text-base md:text-lg dark:text-white">
             As a dedicated and hardworking Front-end Developer, I am currently
             studying Computer Programming with a focus on front-end development.
             With almost a year of experience under my belt, I am committed to

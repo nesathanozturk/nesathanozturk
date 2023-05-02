@@ -16,13 +16,13 @@ const Skills = () => {
     <section id="skills" className="w-full py-4 mt-10">
       <div className="container mx-auto flex flex-col-reverse md:flex-row justify-center items-center gap-5 md:gap-20">
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2">
+          <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2 dark:text-[#0891B2]">
             My Skills
           </h1>
-          <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold py-2">
+          <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold py-2 dark:text-[#0891B2]">
             What am i using?
           </p>
-          <div className="flex justify-center md:justify-start flex-wrap items-center gap-4 mt-4 mb-6">
+          <div className="flex justify-center md:justify-start flex-wrap items-center gap-4 mt-4 mb-6 dark:text-[#999]">
             <span
               title="HTML5"
               className="cursor-pointer flex flex-col justify-center items-center gap-2"
@@ -90,7 +90,7 @@ const Skills = () => {
         </div>
         <div className="w-full md:w-1/4">
           <img
-            className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg"
+            className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg cursor-pointer"
             src={image2}
             alt="Developer"
           />

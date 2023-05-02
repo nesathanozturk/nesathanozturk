@@ -3,7 +3,7 @@ const ProjectCard = ({ project }) => {
 
   return (
     <a href={link}>
-      <div className="bg-[#171c28] hover:bg-[#1e2430] text-white p-8 rounded-2xl cursor-pointer transition-all shadow-2xl">
+      <div className="bg-[#171c28] hover:bg-[#1e2430] dark:bg-[#1e2430] dark:hover:bg-[#1a1f2b] text-white p-8 rounded-2xl cursor-pointer transition-all shadow-2xl">
         <div className="flex items-center p-4">
           <svg
             aria-hidden="true"
