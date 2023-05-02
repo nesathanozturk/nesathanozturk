@@ -22,7 +22,7 @@ const Skills = () => {
           <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2 dark:text-[#0891B2]">
             My Skills
           </h1>
-          <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold py-2 dark:text-[#0891B2]">
+          <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold py-2 dark:text-[#127491]">
             What am i using?
           </p>
           <div className="flex justify-center md:justify-start flex-wrap items-center gap-4 mt-4 mb-6 dark:text-[#999]">

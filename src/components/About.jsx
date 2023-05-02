@@ -18,7 +18,7 @@ const About = () => {
           <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2 dark:text-[#0891B2]">
             About Me
           </h1>
-          <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold mb-4 dark:text-[#0891B2]">
+          <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold mb-4 dark:text-[#127491]">
             Who am i?
           </p>
           <p className="text-base md:text-lg dark:text-white">

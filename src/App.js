@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Home from "./components/Home/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Projects from "./components/Projects";
+import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import AOS from "aos";

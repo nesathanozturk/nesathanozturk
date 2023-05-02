@@ -1,4 +1,4 @@
-import { projects } from "../utils/data";
+import { projects } from "../../utils/data";
 import ProjectCard from "./ProjectCard";
 
 const Projects = ({ dark }) => {
@@ -8,7 +8,7 @@ const Projects = ({ dark }) => {
         <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2 dark:text-[#0891B2]">
           My Projects
         </h1>
-        <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold py-2 dark:text-[#0891B2]">
+        <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold py-2 dark:text-[#127491]">
           My Works
         </p>
       </div>

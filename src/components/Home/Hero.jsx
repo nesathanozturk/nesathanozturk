@@ -12,8 +12,8 @@ const Hero = ({ dark }) => {
           className="w-full md:w-1/2 text-center md:text-left"
           data-aos="fade-up"
         >
-          <h1 className="text-xl md:text-2xl mb-4 tracking-widest dark:text-white">
-            HEY THERE 👋,&nbsp; I'M
+          <h1 className="text-xl md:text-2xl mb-4 tracking-widest font-medium dark:text-white">
+            Hey There 👋,&nbsp; I'm
           </h1>
           {home.map((text) => (
             <h1
@@ -35,24 +35,24 @@ const Hero = ({ dark }) => {
             Frontend technologies.
           </p>
           <div className="flex justify-center md:justify-start items-center gap-2 mt-4 mb-6">
-            <span>
+            <a href="https://www.github.com/nesathanozturk/">
               <AiFillGithub
                 size={35}
                 className="text-purple-800 hover:text-purple-900 transition-colors cursor-pointer dark:text-white dark:hover:text-purple-800"
               />
-            </span>
-            <span>
+            </a>
+            <a href="https://www.linkedin.com/in/nesathanozturk">
               <AiFillLinkedin
                 size={40}
                 className="text-blue-700 hover:text-blue-900 transition-colors cursor-pointer dark:text-white dark:hover:text-blue-700"
               />
-            </span>
-            <span>
+            </a>
+            <a href="https://www.instagram.com/nesathanozturk/">
               <BsInstagram
                 size={35}
                 className="text-red-700 hover:text-red-800 transition-colors cursor-pointer dark:text-white dark:hover:text-red-700"
               />
-            </span>
+            </a>
           </div>
           {dark ? (
             <a
