@@ -2,7 +2,7 @@ import image4 from "../assets/images/image4.png";
 
 const About = () => {
   return (
-    <section id="about" className="w-full p-4  mt-20">
+    <section id="about" className="w-full p-4 mt-20">
       <div className="container mx-auto flex flex-col md:flex-row justify-center items-center gap-20">
         <div className="w-full md:w-1/4">
           <img
@@ -12,9 +12,12 @@ const About = () => {
           />
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-4">
+          <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2">
             About Me
           </h1>
+          <p className="text-purple-500 font-caveat text-xl md:text-2xl font-semibold mb-4">
+            Who am i?
+          </p>
           <p className="text-base md:text-lg">
             As a dedicated and hardworking Front-end Developer, I am currently
             studying Computer Programming with a focus on front-end development.
