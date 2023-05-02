@@ -2,7 +2,7 @@ import { MdDarkMode } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="w-full py-4 px-16 flex justify-between items-center">
+    <nav className="container mx-auto py-8 px-28 flex justify-between items-center mb-10">
       <h1 className="font-caveat text-3xl text-purple-700 transition-colors cursor-pointer">
         Neşathan Öztürk
       </h1>
