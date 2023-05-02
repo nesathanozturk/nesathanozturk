@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="w-full p-4 text-center">
+    <footer className="w-full py-8 px-4 text-center" data-aos="zoom-in-down">
       <p className="text-base md:text-lg py-2 dark:text-white">
         Designed By&nbsp;
         <a

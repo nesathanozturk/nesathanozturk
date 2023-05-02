@@ -4,14 +4,17 @@ const About = () => {
   return (
     <section id="about" className="w-full p-4 mt-20">
       <div className="container mx-auto flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20">
-        <div className="w-full md:w-1/4">
+        <div className="w-full md:w-1/4" data-aos="fade-right">
           <img
             className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg cursor-pointer"
             src={image4}
             alt="Developer"
           />
         </div>
-        <div className="w-full md:w-1/2 text-center md:text-left">
+        <div
+          className="w-full md:w-1/2 text-center md:text-left"
+          data-aos="fade-left"
+        >
           <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2 dark:text-[#0891B2]">
             About Me
           </h1>

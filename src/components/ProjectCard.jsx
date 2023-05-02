@@ -2,7 +2,7 @@ const ProjectCard = ({ project }) => {
   const { title, language, fork, star, link } = project;
 
   return (
-    <a href={link}>
+    <a href={link} data-aos="flip-up">
       <div className="bg-[#171c28] hover:bg-[#1e2430] dark:bg-[#1e2430] dark:hover:bg-[#1a1f2b] text-white p-8 rounded-2xl cursor-pointer transition-all shadow-2xl">
         <div className="flex items-center p-4">
           <svg

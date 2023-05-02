@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 const Projects = ({ dark }) => {
   return (
     <section id="projects" className="my-10">
-      <div className="w-full text-center">
+      <div className="w-full text-center" data-aos="zoom-in">
         <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2 dark:text-[#0891B2]">
           My Projects
         </h1>
@@ -17,7 +17,7 @@ const Projects = ({ dark }) => {
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
-      <div className="text-center mt-10">
+      <div className="text-center mt-10" data-aos="zoom-in-up">
         {dark ? (
           <a
             href="https://github.com/nesathanozturk?tab=repositories"

@@ -15,7 +15,10 @@ const Skills = () => {
   return (
     <section id="skills" className="w-full py-4 mt-10">
       <div className="container mx-auto flex flex-col-reverse md:flex-row justify-center items-center gap-5 md:gap-20">
-        <div className="w-full md:w-1/2 text-center md:text-left">
+        <div
+          className="w-full md:w-1/2 text-center md:text-left"
+          data-aos="fade-up-right"
+        >
           <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2 dark:text-[#0891B2]">
             My Skills
           </h1>
@@ -88,7 +91,7 @@ const Skills = () => {
             </span>
           </div>
         </div>
-        <div className="w-full md:w-1/4">
+        <div className="w-full md:w-1/4" data-aos="fade-up-left">
           <img
             className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg cursor-pointer"
             src={image2}

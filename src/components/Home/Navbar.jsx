@@ -7,7 +7,10 @@ const Navbar = ({ dark, setDark }) => {
   const [hamburger, setHamburger] = useState(false);
 
   return (
-    <nav className="container mx-auto py-8 px-8 md:px-28 flex justify-between items-center mb-10">
+    <nav
+      className="container mx-auto py-8 px-8 md:px-28 flex justify-between items-center mb-10"
+      data-aos="fade-down"
+    >
       <h1 className="font-caveat text-3xl text-purple-700 transition-colors cursor-pointer dark:text-[#0891B2]">
         Neşathan Öztürk
       </h1>
