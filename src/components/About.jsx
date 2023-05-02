@@ -3,10 +3,10 @@ import image4 from "../assets/images/image4.png";
 const About = () => {
   return (
     <section id="about" className="w-full p-4 mt-20">
-      <div className="container mx-auto flex flex-col md:flex-row justify-center items-center gap-20">
+      <div className="container mx-auto flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20">
         <div className="w-full md:w-1/4">
           <img
-            className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg"
+            className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg cursor-pointer"
             src={image4}
             alt="Developer"
           />
