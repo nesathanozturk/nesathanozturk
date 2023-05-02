@@ -3,10 +3,10 @@ import Hero from "./Hero";
 
 const Home = () => {
   return (
-    <>
+    <section id="home">
       <Navbar />
       <Hero />
-    </>
+    </section>
   );
 };
 
