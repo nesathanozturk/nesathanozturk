@@ -10,7 +10,7 @@ const Footer = () => {
           Neşathan Öztürk.
         </a>
       </p>
-      <p className="text-lg md:text-xl uppercase">
+      <p className="text-lg md:text-xl">
         &copy; Copyright 2023. All Rights reserved.
       </p>
     </footer>
