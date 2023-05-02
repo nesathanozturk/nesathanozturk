@@ -1,16 +1,14 @@
-import Navbar from "./Navbar";
-import { home } from "../utils/data";
+import { home } from "../../utils/data";
 import Typewriter from "typewriter-effect";
-import image1 from "../assets/images/image1.png";
+import image1 from "../../assets/images/image1.png";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 
-const Home = () => {
+const Hero = () => {
   return (
     <>
-      <Navbar />
       <section className="w-full py-4">
-        <div className="container m-auto flex flex-col-reverse md:flex-row justify-center items-center gap-20">
+        <div className="container mx-auto flex flex-col-reverse md:flex-row justify-center items-center gap-20">
           <div className="w-full md:w-1/2 text-center md:text-left">
             <h1 className="text-xl md:text-2xl mb-4 tracking-widest">
               HEY THERE 👋,&nbsp; I'M
@@ -71,4 +69,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;
