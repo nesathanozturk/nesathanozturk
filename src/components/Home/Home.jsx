@@ -1,10 +1,10 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 
-const Home = ({ dark, setDark }) => {
+const Home = ({ dark, toggleDark }) => {
   return (
     <section id="home">
-      <Navbar dark={dark} setDark={setDark} />
+      <Navbar dark={dark} toggleDark={toggleDark} />
       <Hero dark={dark} />
     </section>
   );

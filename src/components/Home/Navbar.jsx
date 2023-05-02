@@ -3,7 +3,7 @@ import { MdDarkMode } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { HiOutlineSun } from "react-icons/hi";
 
-const Navbar = ({ dark, setDark }) => {
+const Navbar = ({ dark, toggleDark }) => {
   const [hamburger, setHamburger] = useState(false);
 
   return (
@@ -34,7 +34,7 @@ const Navbar = ({ dark, setDark }) => {
           </li>
           <li
             className="hidden md:block cursor-pointer hover:text-gray-800 transition-colors"
-            onClick={() => setDark(!dark)}
+            onClick={toggleDark}
           >
             {dark ? (
               <HiOutlineSun
@@ -50,7 +50,7 @@ const Navbar = ({ dark, setDark }) => {
       <div className="flex md:hidden gap-2">
         <span
           className="cursor-pointer hover:text-gray-800 transition-colors dark:text-white"
-          onClick={() => setDark(!dark)}
+          onClick={toggleDark}
         >
           {dark ? <HiOutlineSun size={25} /> : <MdDarkMode size={25} />}
         </span>

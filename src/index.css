@@ -21,3 +21,8 @@ body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
 }
+
+.active {
+  opacity: 1;
+  cursor: pointer;
+}
