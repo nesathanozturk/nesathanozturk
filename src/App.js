@@ -4,7 +4,7 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 import { useState, useEffect } from "react";
 import About from "./components/About";
 import Footer from "./components/Footer";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/projects/Projects";
 
