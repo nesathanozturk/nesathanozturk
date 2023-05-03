@@ -1,11 +1,11 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import About from "./components/About";
 import { AiOutlineArrowUp } from "react-icons/ai";
+import { useState, useEffect } from "react";
+import About from "./components/About";
 import Footer from "./components/Footer";
 import Home from "./components/home/Home";
 import Skills from "./components/Skills";
-import { useState, useEffect } from "react";
 import Projects from "./components/projects/Projects";
 
 const App = () => {

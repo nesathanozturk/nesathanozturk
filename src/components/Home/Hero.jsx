@@ -1,8 +1,8 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
-import image1 from "../../assets/images/image1.png";
 import { home } from "../../utils/data";
+import image1 from "../../assets/images/image1.png";
 
 const Hero = ({ dark }) => {
   return (
