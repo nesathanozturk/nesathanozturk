@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { MdDarkMode } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { HiOutlineSun } from "react-icons/hi";
+import { MdDarkMode } from "react-icons/md";
+import { useState } from "react";
 
 const Navbar = ({ dark, toggleDark }) => {
   const [hamburger, setHamburger] = useState(false);
@@ -14,22 +14,18 @@ const Navbar = ({ dark, toggleDark }) => {
       <h1 className="font-caveat text-3xl text-purple-700 transition-colors cursor-pointer dark:text-[#0891B2]">
         Neşathan Öztürk
       </h1>
-      <div
-        className={`text-center sm:text-left bg-purple-700 dark:bg-gray-600 md:bg-white md:dark:bg-[#171c28]  w-full px-10 sm:px-0 right-0 z-50 sm:w-72 sm:h-58 absolute top-20 sm:right-4 md:static md:top-0 md:right-0 rounded-none sm:rounded-xl md:block ${
-          hamburger ? "block" : "hidden"
-        }`}
-      >
+      <div className={`hamburger sm:h-58 ${hamburger ? "block" : "hidden"}`}>
         <ul className="p-4 md:p-0 flex flex-col md:flex-row justify-start md:justify-center md:items-center gap-5 font-semibold text-white md:text-black dark:text-white">
-          <li className="hover:text-orange-500 md:hover:text-purple-700 transition-colors dark:hover:dark:text-[#0891B2]">
+          <li className="navbar-item">
             <a href="#home">Home</a>
           </li>
-          <li className="hover:text-orange-500 md:hover:text-purple-700 transition-colors dark:hover:dark:text-[#0891B2]">
+          <li className="navbar-item">
             <a href="#about">About</a>
           </li>
-          <li className="hover:text-orange-500 md:hover:text-purple-700 transition-colors dark:hover:dark:text-[#0891B2]">
+          <li className="navbar-item">
             <a href="#skills">Skills</a>
           </li>
-          <li className="hover:text-orange-500 md:hover:text-purple-700 transition-colors dark:hover:dark:text-[#0891B2]">
+          <li className="navbar-item">
             <a href="#projects">Projects</a>
           </li>
           <li

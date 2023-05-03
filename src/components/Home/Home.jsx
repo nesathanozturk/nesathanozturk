@@ -1,5 +1,5 @@
-import Navbar from "./Navbar";
 import Hero from "./Hero";
+import Navbar from "./Navbar";
 
 const Home = ({ dark, toggleDark }) => {
   return (

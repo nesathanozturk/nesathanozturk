@@ -1,12 +1,12 @@
-import { useState, useEffect } from "react";
-import Home from "./components/Home/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
-import { AiOutlineArrowUp } from "react-icons/ai";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from "./components/About";
+import { AiOutlineArrowUp } from "react-icons/ai";
+import Footer from "./components/Footer";
+import Home from "./components/home/Home";
+import Skills from "./components/Skills";
+import { useState, useEffect } from "react";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   const [dark, setDark] = useState(

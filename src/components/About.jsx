@@ -1,4 +1,4 @@
-import image4 from "../assets/images/image4.png";
+import image3 from "../assets/images/image3.png";
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
         <div className="w-full md:w-1/4" data-aos="fade-right">
           <img
             className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg cursor-pointer"
-            src={image4}
+            src={image3}
             alt="Developer"
           />
         </div>

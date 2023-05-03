@@ -1,4 +1,6 @@
 import { AiFillHtml5 } from "react-icons/ai";
+import { BsGit } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
 import {
   SiSass,
   SiCss3,
@@ -7,8 +9,6 @@ import {
   SiJavascript,
   SiRedux,
 } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { BsGit } from "react-icons/bs";
 import image2 from "../assets/images/image2.png";
 
 const Skills = () => {
@@ -26,66 +26,39 @@ const Skills = () => {
             What am i using?
           </p>
           <div className="flex justify-center md:justify-start flex-wrap items-center gap-4 mt-4 mb-6 dark:text-[#999]">
-            <span
-              title="HTML5"
-              className="cursor-pointer flex flex-col justify-center items-center gap-2"
-            >
+            <span title="HTML5" className="technologies">
               <AiFillHtml5 size={60} className="text-red-600" />
               <small className="font-semibold">html5</small>
             </span>
-            <span
-              title="CSS3"
-              className="cursor-pointer flex flex-col justify-center items-center gap-2"
-            >
+            <span title="CSS3" className="technologies">
               <SiCss3 size={50} className="text-blue-600" />
               <small className="font-semibold pt-2">css3</small>
             </span>
-            <span
-              title="SASS"
-              className="cursor-pointer flex flex-col justify-center items-center gap-2"
-            >
+            <span title="SASS" className="technologies">
               <SiSass size={50} className="text-pink-600" />
               <small className="font-semibold pt-1">sass</small>
             </span>
-            <span
-              title="TailwindCSS"
-              className="cursor-pointer flex flex-col justify-center items-center gap-2"
-            >
+            <span title="TailwindCSS" className="technologies">
               <SiTailwindcss size={50} className="text-blue-500" />
-              <small className="font-semibold pt-1">tailwindcsss</small>
+              <small className="font-semibold pt-1">tailwindcss</small>
             </span>
-            <span
-              title="Styled Components"
-              className="cursor-pointer flex flex-col justify-center items-center gap-2"
-            >
+            <span title="Styled Components" className="technologies">
               <SiStyledcomponents size={55} className="text-purple-600" />
               <small className="font-semibold">styledcomponents</small>
             </span>
-            <span
-              title="JavaScript"
-              className="cursor-pointer flex flex-col justify-center items-center gap-2"
-            >
+            <span title="JavaScript" className="technologies">
               <SiJavascript size={50} className="text-yellow-500" />
               <small className="font-semibold pt-1">javascript</small>
             </span>
-            <span
-              title="React"
-              className="cursor-pointer flex flex-col justify-center items-center gap-2"
-            >
+            <span title="React" className="technologies">
               <FaReact size={50} className="text-blue-400" />
               <small className="font-semibold pt-1">react</small>
             </span>
-            <span
-              title="Redux"
-              className="cursor-pointer flex flex-col justify-center items-center gap-2"
-            >
+            <span title="Redux" className="technologies">
               <SiRedux size={50} className="text-purple-600" />
               <small className="font-semibold">redux</small>
             </span>
-            <span
-              title="Git"
-              className="cursor-pointer flex flex-col justify-center items-center gap-2"
-            >
+            <span title="Git" className="technologies">
               <BsGit size={50} className="text-red-600" />
               <small className="font-semibold">git</small>
             </span>

@@ -22,7 +22,19 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.navbar-item {
+  @apply hover:text-orange-500 md:hover:text-purple-700 transition-colors dark:hover:dark:text-[#0891B2];
+}
+
+.hamburger {
+  @apply text-center sm:text-left bg-purple-700 dark:bg-gray-600 md:bg-white md:dark:bg-[#171c28]  w-full px-10 sm:px-0 right-0 z-50 sm:w-72 absolute top-20 sm:right-4 md:static md:top-0 md:right-0 rounded-none sm:rounded-xl md:block;
+}
+
 .active {
   opacity: 1;
   cursor: pointer;
+}
+
+.technologies {
+  @apply cursor-pointer flex flex-col justify-center items-center gap-2;
 }
