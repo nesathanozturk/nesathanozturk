@@ -64,7 +64,7 @@ const Skills = () => {
             </span>
           </div>
         </div>
-        <div className="w-full md:w-1/4" data-aos="fade-up-left">
+        <div className="w-full md:w-1/4">
           <img
             className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg cursor-pointer"
             src={image2}
