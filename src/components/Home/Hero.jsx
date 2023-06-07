@@ -10,7 +10,6 @@ const Hero = ({ dark }) => {
       <div className="container mx-auto flex flex-col-reverse md:flex-row justify-center items-center gap-20">
         <div
           className="w-full md:w-1/2 text-center md:text-left"
-          data-aos="fade-up"
         >
           <h1 className="text-xl md:text-2xl mb-4 tracking-widest font-medium dark:text-white">
             Hey There 👋,&nbsp; I'm
@@ -70,7 +69,7 @@ const Hero = ({ dark }) => {
             </a>
           )}
         </div>
-        <div className="w-full md:w-1/4" data-aos="fade-down">
+        <div className="w-full md:w-1/4">
           <img
             className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg cursor-pointer"
             src={image1}
