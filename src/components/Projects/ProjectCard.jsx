@@ -1,6 +1,8 @@
 const ProjectCard = ({ project }) => {
   const { title, language, fork, star, link } = project;
 
+  const projectColor = language === "JavaScript" ? "#f0db4f" : "#4C7CB3";
+
   return (
     <a href={link} data-aos="flip-up">
       <div className="bg-[#171c28] hover:bg-[#1e2430] dark:bg-[#1e2430] dark:hover:bg-[#1a1f2b] text-white p-8 rounded-2xl cursor-pointer transition-all shadow-2xl">
@@ -31,7 +33,7 @@ const ProjectCard = ({ project }) => {
             <span className="pl-4 flex justify-center items-center gap-1">
               <div
                 className="w-3 h-3 rounded-full mr-1"
-                style={{ backgroundColor: "yellow" }}
+                style={{ backgroundColor: projectColor }}
               ></div>
               <p>{language}</p>
             </span>
