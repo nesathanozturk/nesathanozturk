@@ -1,33 +1,17 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { BsInstagram } from "react-icons/bs";
-import Typewriter from "typewriter-effect";
-import { home } from "../../utils/data";
-import image1 from "../../assets/images/image1.png";
+import TypeEffect from "../TypeEffect";
+import hero from "../../assets/images/hero.png";
 
 const Hero = ({ dark }) => {
   return (
     <section className="w-full py-4">
       <div className="container mx-auto flex flex-col-reverse md:flex-row justify-center items-center gap-20">
-        <div
-          className="w-full md:w-1/2 text-center md:text-left"
-        >
+        <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-xl md:text-2xl mb-4 tracking-widest font-medium dark:text-white">
             Hey There 👋,&nbsp; I'm
           </h1>
-          {home.map((text) => (
-            <h1
-              key={text.id}
-              className="font-caveat text-2xl md:text-3xl mb-4 text-purple-800 font-bold tracking-widest dark:text-[#0891B2]"
-            >
-              <Typewriter
-                options={{
-                  strings: [`${text.name}`, `${text.job}`],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h1>
-          ))}
+          <TypeEffect />
           <p className="text-base md:text-lg text-[#303030] dark:text-white">
             I am a self-taught developer. I love coding and learning new things.
             I am currently working on React.js. I am also interested in other
@@ -72,8 +56,8 @@ const Hero = ({ dark }) => {
         <div className="w-full md:w-1/4">
           <img
             className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg cursor-pointer"
-            src={image1}
-            alt="Developer"
+            src={hero}
+            alt="A man with computer"
           />
         </div>
       </div>

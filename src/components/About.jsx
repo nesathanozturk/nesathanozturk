@@ -1,4 +1,4 @@
-import image3 from "../assets/images/image3.png";
+import thinkingMan from "../assets/images/thinking-man.png";
 
 const About = () => {
   return (
@@ -7,13 +7,11 @@ const About = () => {
         <div className="w-full md:w-1/4">
           <img
             className="w-72 h-full object-cover m-auto md:m-0 md:max-w-lg cursor-pointer"
-            src={image3}
-            alt="Developer"
+            src={thinkingMan}
+            alt="A thinking man"
           />
         </div>
-        <div
-          className="w-full md:w-1/2 text-center md:text-left"
-        >
+        <article className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-purple-700 font-caveat text-4xl md:text-5xl font-semibold uppercase py-2 dark:text-[#0891B2]">
             About Me
           </h1>
@@ -30,7 +28,7 @@ const About = () => {
             am excited to work collaboratively and contribute to innovative and
             impactful projects.
           </p>
-        </div>
+        </article>
       </div>
     </section>
   );

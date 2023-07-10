@@ -14,7 +14,7 @@ const App = () => {
   );
 
   const toggleDark = () => {
-    setDark(!dark);
+    setDark((prev) => !prev);
     localStorage.setItem("dark", !dark);
   };
 
@@ -27,13 +27,15 @@ const App = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 500) {
-      document.getElementById("topBtn").classList.add("opacity-100");
-    } else {
-      document.getElementById("topBtn").classList.remove("opacity-100");
-    }
-  });
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 500) {
+        document.getElementById("topBtn").classList.add("opacity-100");
+      } else {
+        document.getElementById("topBtn").classList.remove("opacity-100");
+      }
+    });
+  }, []);
 
   return (
     <main className={dark ? "dark" : ""}>
