@@ -1,12 +1,12 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { AiOutlineArrowUp } from "react-icons/ai";
 import { useState, useEffect } from "react";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Home from "./components/Home/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects/Projects";
+import UpButton from "./components/UpButton";
 
 const App = () => {
   const [dark, setDark] = useState(
@@ -27,16 +27,6 @@ const App = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 500) {
-        document.getElementById("topBtn").classList.add("opacity-100");
-      } else {
-        document.getElementById("topBtn").classList.remove("opacity-100");
-      }
-    });
-  }, []);
-
   return (
     <main className={dark ? "dark" : ""}>
       <div className="bg-white dark:bg-[#171c28] relative">
@@ -45,16 +35,7 @@ const App = () => {
         <Skills />
         <Projects dark={dark} />
         <Footer />
-        <button
-          id="topBtn"
-          className={`bg-purple-700 dark:bg-[#0891B2] opacity-0 text-white fixed bottom-10 right-10 text-3xl rounded-full p-2 transition-all 
-         `}
-          onClick={() => {
-            window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-          }}
-        >
-          <AiOutlineArrowUp />
-        </button>
+        <UpButton />
       </div>
     </main>
   );

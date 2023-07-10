@@ -65,7 +65,7 @@ const Icons = () => {
         <small className="font-semibold">firebase</small>
       </span>
       <span title="vercel" className="technologies">
-        <SiVercel size={50} />
+        <SiVercel size={50} className="dark:text-white" />
         <small className="font-semibold">vercel</small>
       </span>
       <span title="Netlify" className="technologies">
@@ -73,7 +73,7 @@ const Icons = () => {
         <small className="font-semibold">netlify</small>
       </span>
       <span title="npm" className="technologies">
-        <SiNpm size={50} />
+        <SiNpm size={50} className="dark:text-white" />
         <small className="font-semibold">npm</small>
       </span>
       <span title="yarn" className="technologies">
