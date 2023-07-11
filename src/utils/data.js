@@ -79,7 +79,7 @@ export const icons = [
   {
     id: 1,
     title: "HTML5",
-    Element: <AiFillHtml5 />,
+    Element: AiFillHtml5,
     size: 60,
     color: "text-red-600",
     name: "html5",
@@ -87,7 +87,7 @@ export const icons = [
   {
     id: 2,
     title: "CSS3",
-    Element: <SiCss3 />,
+    Element: SiCss3,
     size: 50,
     color: "text-blue-600",
     padding: "pt-2",
@@ -96,7 +96,7 @@ export const icons = [
   {
     id: 3,
     title: "SASS",
-    Element: <SiSass />,
+    Element: SiSass,
     size: 50,
     color: "text-pink-600",
     padding: "pt-1",
@@ -105,7 +105,7 @@ export const icons = [
   {
     id: 4,
     title: "TailwindCSS",
-    Element: <SiTailwindcss />,
+    Element: SiTailwindcss,
     size: 50,
     color: "text-blue-500",
     padding: "pt-1",
@@ -114,7 +114,7 @@ export const icons = [
   {
     id: 5,
     title: "Styled Components",
-    Element: <SiStyledcomponents />,
+    Element: SiStyledcomponents,
     size: 55,
     color: "text-purple-600",
     name: "styledcomponents",
@@ -122,7 +122,7 @@ export const icons = [
   {
     id: 6,
     title: "Material UI",
-    Element: <SiMui />,
+    Element: SiMui,
     size: 55,
     color: "text-blue-500",
     name: "mui",
@@ -130,7 +130,7 @@ export const icons = [
   {
     id: 7,
     title: "JavaScript",
-    Element: <SiJavascript />,
+    Element: SiJavascript,
     size: 50,
     color: "text-yellow-500",
     padding: "pt-1",
@@ -139,7 +139,7 @@ export const icons = [
   {
     id: 8,
     title: "TypeScript",
-    Element: <SiTypescript />,
+    Element: SiTypescript,
     size: 50,
     color: "text-blue-600",
     padding: "pt-1",
@@ -148,7 +148,7 @@ export const icons = [
   {
     id: 9,
     title: "React",
-    Element: <FaReact />,
+    Element: FaReact,
     size: 50,
     color: "text-blue-500",
     padding: "pt-1",
@@ -157,7 +157,7 @@ export const icons = [
   {
     id: 10,
     title: "Redux",
-    Element: <SiRedux />,
+    Element: SiRedux,
     size: 50,
     color: "text-purple-600",
     name: "redux",
@@ -165,7 +165,7 @@ export const icons = [
   {
     id: 11,
     title: "Firebase",
-    Element: <TbBrandFirebase />,
+    Element: TbBrandFirebase,
     size: 50,
     color: "text-yellow-500",
     name: "firebase",
@@ -173,7 +173,7 @@ export const icons = [
   {
     id: 12,
     title: "Vercel",
-    Element: <SiVercel />,
+    Element: SiVercel,
     size: 50,
     color: "dark:text-white",
     name: "vercel",
@@ -181,7 +181,7 @@ export const icons = [
   {
     id: 13,
     title: "Netlify",
-    Element: <SiNetlify />,
+    Element: SiNetlify,
     size: 50,
     color: "text-cyan-500",
     name: "netlify",
@@ -189,7 +189,7 @@ export const icons = [
   {
     id: 14,
     title: "npm",
-    Element: <SiNpm />,
+    Element: SiNpm,
     size: 50,
     color: "dark:text-white",
     name: "npm",
@@ -197,7 +197,7 @@ export const icons = [
   {
     id: 15,
     title: "yarn",
-    Element: <SiYarn />,
+    Element: SiYarn,
     size: 50,
     color: "text-blue-500",
     name: "yarn",
@@ -205,7 +205,7 @@ export const icons = [
   {
     id: 16,
     title: "Git",
-    Element: <BsGit />,
+    Element: BsGit,
     size: 50,
     color: "text-red-600",
     name: "git",
