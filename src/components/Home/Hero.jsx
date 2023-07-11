@@ -39,7 +39,9 @@ const Hero = ({ dark }) => {
           </div>
           <a
             href="mailto:nesathanozturk061@gmail.com"
-            className="from-purple-500 via-purple-600 to-purple-700 focus:ring-purple-300 dark:focus:ring-purple-800 shadow-purple-500/50 dark:shadow-purple-800/80 text-white bg-gradient-to-r hover:bg-gradient-to-br focus:ring-4 focus:outline-none shadow-lg dark:shadow-lg font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 darkBtn"
+            className={`text-white bg-gradient-to-r hover:bg-gradient-to-br focus:ring-4 focus:outline-none shadow-lg dark:shadow-lg font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ${
+              dark ? "darkBtn" : "lightBtn"
+            }`}
           >
             Contact Me
           </a>

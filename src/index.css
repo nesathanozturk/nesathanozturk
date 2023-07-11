@@ -27,6 +27,10 @@ body {
   @apply cursor-pointer flex flex-col justify-center items-center gap-2;
 }
 
+.lightBtn {
+  @apply from-purple-500 via-purple-600 to-purple-700 focus:ring-purple-300 dark:focus:ring-purple-800 shadow-purple-500/50 dark:shadow-purple-800/80;
+}
+
 .darkBtn {
   @apply dark:from-cyan-400 dark:via-cyan-500 dark:to-cyan-600 focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-cyan-500/50 dark:shadow-cyan-800/80;
 }
