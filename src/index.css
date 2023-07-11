@@ -26,3 +26,7 @@ body {
 .technologies {
   @apply cursor-pointer flex flex-col justify-center items-center gap-2;
 }
+
+.darkBtn {
+  @apply from-cyan-400 via-cyan-500 to-cyan-600 focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-cyan-500/50 dark:shadow-cyan-800/80;
+}
