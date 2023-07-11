@@ -5,8 +5,8 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Home from "./components/Home/Home";
 import Skills from "./components/Skills";
-import Projects from "./components/Projects/Projects";
-import UpButton from "./components/UpButton";
+import UpButton from "./components/buttons/UpButton";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   const [dark, setDark] = useState(
