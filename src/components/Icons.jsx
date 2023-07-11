@@ -1,14 +1,14 @@
 import { icons } from "../utils/data";
 
 const Icons = () => {
-  const { id, title, Element, size, color, padding, name } = icons;
-
   return (
     <>
       {icons.map((icon) => (
-        <span key={id} title={title} className="technologies">
-          <Element size={size} className={color} />
-          <small className={`font-semibold ${padding}`}>{name}</small>
+        <span key={icon.id} title={icon.title} className="technologies">
+          <icon.Element size={icon.size} className={icon.color} />
+          <small className={`font-semibold ${icon?.padding}`}>
+            {icon.name}
+          </small>
         </span>
       ))}
     </>
