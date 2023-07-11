@@ -28,7 +28,7 @@ body {
 }
 
 .lightBtn {
-  @apply from-purple-500 via-purple-600 to-purple-700 focus:ring-purple-300 dark:focus:ring-purple-800 shadow-purple-500/50 dark:shadow-purple-800/80;
+  @apply from-purple-500 via-purple-600 to-purple-700 focus:ring-purple-300 shadow-purple-500/50;
 }
 
 .darkBtn {
