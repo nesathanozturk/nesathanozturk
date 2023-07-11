@@ -28,5 +28,5 @@ body {
 }
 
 .darkBtn {
-  @apply from-cyan-400 via-cyan-500 to-cyan-600 focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-cyan-500/50 dark:shadow-cyan-800/80;
+  @apply dark:from-cyan-400 dark:via-cyan-500 dark:to-cyan-600 dark:focus:ring-cyan-800 dark:shadow-cyan-800/80;
 }
