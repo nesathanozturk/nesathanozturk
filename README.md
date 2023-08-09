@@ -1,5 +1,5 @@
 # 💫 About Me:
-<b>🌱 I’m currently learning Next.js</b><br><b>📫 How to reach me nesathanozturk061@gmail.com</b><br>
+<b>🌱 I’m currently learning Jest</b><br><b>📫 How to reach me nesathanozturk061@gmail.com</b><br>
 
 
 ## 🌐 Socials:
