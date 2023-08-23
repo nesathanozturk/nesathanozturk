@@ -1,5 +1,4 @@
-# 💫 About Me:
-<b>Hi 👋, I'm Neşathan Öztürk, a passionate frontend developer from Turkey</b><br />
+# 👋 Hi there! 
 <b>🌱 I’m currently learning Jest</b><br><b>📫 How to reach me nesathanozturk061@gmail.com</b><br>
 
 
