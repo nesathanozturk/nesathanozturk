@@ -1,6 +1,6 @@
 # Hi there, I'm Neşathan Öztürk! 👋
 
-🚀 **Frontend** passionate about building sleek, performant apps with **React, and Next.js**.  
+🚀 **Front-end** passionate about building sleek, performant apps with **React, and Next.js**.  
 📍 Based in Turkey | 📧 nesathanozturk061@gmail.com
 
 ---
@@ -25,7 +25,5 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 
 ---
-
-📫 Reach Me
-
+### 📫 Reach Me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nesathanozturk/)
